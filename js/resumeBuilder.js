@@ -1,4 +1,5 @@
-$("#main").append("Roman");
+var formattedName = HTMLheaderName.replace("%data%", "Roman Bull Di Gaetano");
+var formattedRole = HTMLheaderRole.replace("%data%", "programmer");
 
 var work = {
   "title": "programmer",
@@ -8,5 +9,7 @@ var work = {
 var workTitle = HTMLworkTitle.replace("%data%", work.title);
 var workDsc = HTMLworkDescription.replace("%data%", work.description);
 
+$("#main").append(formattedName);
+$("#main").append(formattedRole);
 $("#main").append(workTitle);
 $("#main").append(workDsc);
