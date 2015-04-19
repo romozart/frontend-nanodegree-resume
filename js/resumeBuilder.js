@@ -2,11 +2,11 @@ $("#main").append("Roman");
 
 var work = {
   "title": "programmer",
-  "description": "Enter description here please"
+  "Description": "Enter description here please"
 };
 
 var workTitle = HTMLworkTitle.replace("%data%", work.title);
-var workDscrptn = HTMLworkDescription.replace("%data%", work.description);
+var workDsc = HTMLworkDescription.replace("%data%", work.Description);
 
 $("#main").append(workTitle);
-$("#main").append(workDscrptn);
+$("#main").append(workDsc);
