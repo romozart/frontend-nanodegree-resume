@@ -1,7 +1,7 @@
 $("#main").append("Roman");
 
 var work = {
-  title: "programmer"
+  "title": "programmer"
 };
 
 var workTitle = HTMLworkTitle.replace("%data%", work.title);
