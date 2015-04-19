@@ -6,7 +6,7 @@ var work = {
 };
 
 var workTitle = HTMLworkTitle.replace("%data%", work.title);
-var workDscrptn = HTMLworkDescrption.replace("%data%", work.description);
+var workDscrptn = HTMLworkDescription.replace("%data%", work.description);
 
 $("#main").append(workTitle);
 $("#main").append(workDscrptn);
