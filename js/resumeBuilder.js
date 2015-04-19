@@ -9,7 +9,7 @@ var work = {
 var workTitle = HTMLworkTitle.replace("%data%", work.title);
 var workDsc = HTMLworkDescription.replace("%data%", work.description);
 
-$("#workExperience").append(formattedName);
-$("#workExperience").append(formattedRole);
+$("#main").append(formattedName);
+$("#main").append(formattedRole);
 $("#workExperience").append(workTitle);
 $("#workExperience").append(workDsc);
