@@ -4,5 +4,6 @@ var work = {
   title: "programmer"
 };
 
-HTMLworkTitle.replace("%data%", work.title);
+var workTitle = HTMLworkTitle.replace("%data%", work.title);
 
+$("#main").append(workTitle);
