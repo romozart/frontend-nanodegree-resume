@@ -1,14 +1,18 @@
-var me = {
+var bio = {
   "name": "Roman Bull Di Gaetano",
-  "role": "programming"
+  "role": "programming",
+  "msg": "Welcome to my personal site!",
 };
 
-var formattedName = HTMLheaderName.replace("%data%", me.name);
-var formattedRole = HTMLheaderRole.replace("%data%", me.role);
+var project = {};
+
+var formattedName = HTMLheaderName.replace("%data%", bio.name);
+var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+var welcome = HTMLwelcomeMsg.replace("%data%", bio.msg); 
 
 var work = {
   "title": "programmer",
-  "description": "Enter description here please"
+  "description": "Enter description here please",
 };
 
 var workTitle = HTMLworkTitle.replace("%data%", work.title);
