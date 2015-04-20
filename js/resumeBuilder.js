@@ -20,6 +20,6 @@ var workDsc = HTMLworkDescription.replace("%data%", work.description);
 
 $("#main").append(formattedName);
 $("#main").append(formattedRole);
-
+$("#main").append(welcome);
 $("#workExperience").append(workTitle);
 $("#workExperience").append(workDsc);
